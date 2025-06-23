@@ -4,12 +4,6 @@ A Streamlit web app that helps you analyze your WhatsApp chat exports. View deta
 
 ---
 
-## 🔗 Live Demo
-
-👉 [Click here to try the tool](https://whatsapp-chat-analyzer-tool-yb.streamlit.app/)
-
----
-
 ## 🚀 Features
 
 - 📬 **Message Statistics**: Total messages, words, media, and links  
