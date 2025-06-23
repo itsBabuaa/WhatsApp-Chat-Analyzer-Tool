@@ -6,7 +6,7 @@ A Streamlit web app that helps you analyze your WhatsApp chat exports. View deta
 
 ## 🔗 Live Demo
 
-👉 [Click here to try the tool](https://your-app-url.streamlit.app)\
+👉 [Click here to try the tool](https://whatsapp-chat-analyzer-tool-yb.streamlit.app/)
 
 ---
 
@@ -35,7 +35,9 @@ A Streamlit web app that helps you analyze your WhatsApp chat exports. View deta
 
 ## 🎥 Screen Recording
 
-https://user-images.githubusercontent.com/your-username/your-video-id.mp4
+- [📺 Click here to view the screen recording of Source Code](https://youtu.be/nc6A0FqhKf4)
+- 
+- [📺 Click here to view the screen recording of Live Demo](https://youtu.be/Ur38zi8m0fc)
 
 ---
 
