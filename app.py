@@ -20,7 +20,7 @@ if upload_file is not None:
     df = preprocessor.preprocess(data)
 
     #st.text('Uploaded Chat Data')
-    st.dataframe(df)
+    #st.dataframe(df)
 
     # fetch unique users
     user_list = df['user'].unique().tolist()
