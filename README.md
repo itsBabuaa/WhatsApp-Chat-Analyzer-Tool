@@ -35,9 +35,9 @@ A Streamlit web app that helps you analyze your WhatsApp chat exports. View deta
 
 ## 🎥 Screen Recording
 
-- [📺 Click here to view the screen recording of Source Code](https://youtu.be/nc6A0FqhKf4)
-- 
-- [📺 Click here to view the screen recording of Live Demo](https://youtu.be/Ur38zi8m0fc)
+- [📺 Screen recording of Source Code](https://youtu.be/nc6A0FqhKf4)
+ 
+- [📺 Screen recording of Live Demo](https://youtu.be/Ur38zi8m0fc)
 
 ---
 
