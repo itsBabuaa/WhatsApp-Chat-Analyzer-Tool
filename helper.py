@@ -32,6 +32,7 @@ def fetch_stats(selected_user, df):
 
 # function for group analysis
 def most_busy_users(df):
+    df = df[df['user'] != 'group_notification']
     mostBusyUsers = df['user'].value_counts().head()
     busyPercent = round((df['user'].value_counts() / df.shape[0]) * 100, 2).reset_index().rename(columns={'count':'percent'})
     return mostBusyUsers, busyPercent
@@ -43,6 +44,7 @@ def createWordCloud(selected_user, df):
 
     df = df[df['user'] != 'group_notification']
     df = df[df['message'] != "<Media omitted>\n"] # media messages removed
+    df = df[df['message'] != "<Media omitted>"]
 
     wc = WordCloud(width=500, height=500, min_font_size=12, background_color='white')
     df_wc = wc.generate(df['message'].str.cat(sep= ' '))
@@ -55,7 +57,7 @@ def mostCommonWords(selected_user, df):
 
     temp = df[df['user'] != 'group_notification']
     temp = temp[temp['message'] != "<Media omitted>\n"]
-
+    temp = temp[temp['message'] != "<Media omitted>"]
     f = open('stop_hinglish.txt', 'r')
     stop_words = f.read()
     f.close()
