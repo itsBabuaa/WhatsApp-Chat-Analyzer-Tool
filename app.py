@@ -120,11 +120,12 @@ if upload_file is not None:
                 st.dataframe(busyPercent)
 
             with col2:
+                st.header("Pie Chart of Top 5")
                 # Pie Chart Plot
                 fig2, ax2 = plt.subplots()
                 ax2.pie(
-                    busyPercent['percent'],
-                    labels=busyPercent['user'],
+                    busyPercent.head()['percent'],
+                    labels=busyPercent.head()['user'],
                     autopct='%1.2f%%',
                     startangle= 90,
                 )
