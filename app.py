@@ -162,3 +162,25 @@ if upload_file is not None:
             fig, ax = plt.subplots()
             ax.pie(emoji_df['Used Count'].head(), labels=emoji_df['Emoji'].head(), autopct="%0.2f")
             st.pyplot(fig)
+
+
+
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 5px;
+            width: 100%;
+            text-align: center;
+            font-size: 13px;
+            opacity: 0.4;
+        }
+    </style>
+    <div class="footer">
+        Babuaa ;)
+    </div>
+    """,
+    unsafe_allow_html=True
+)
